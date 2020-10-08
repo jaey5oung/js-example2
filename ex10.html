@@ -1,0 +1,53 @@
+<!-- <h1><a href="index.html">WEB</a></h1>
+<input
+  id="night_day"
+  type="button"
+  value="night"
+  onclick="
+    var target = document.querySelector('body');
+    if(this.value === 'night'){
+      target.style.backgroundColor = 'black';
+      target.style.color = 'white';
+      this.value = 'day';
+        //처음에 링크를 나이트모드에 파우더블루로 바꿔주고싶을때 만약링크들이 나이트일때 
+        //일단 querySelector는 css a태그 맨위에있는것만 실행시키기떄문에 all써서 모든 a태그를 잡아준다
+        //이후에 alist변수를 선언하여 쿼리셀레올(a)태그들을 담아준다
+        //그리고 변수를 0으로 초기화시켜준다 1
+        //그리고 while문으로 조건을 걸어준다 
+        //alish.length  array.length는 문자열의 길이를 반환시키는것이다
+      var alist = document.querySelectorAll('a');
+      var i = 0;
+      while(i < alist.length){
+        alist[i].style.color = 'powderblue';
+        i = i + 1;
+      }
+    } else {
+      target.style.backgroundColor = 'white';
+      target.style.color = 'black';
+      this.value = 'night';
+
+      var alist = document.querySelectorAll('a');
+      var i = 0;
+      while(i < alist.length){
+        alist[i].style.color = 'blue';
+        i = i + 1;
+      }
+    }
+  "
+/>
+<ol>
+  <li><a href="1.html">HTML</a></li>
+  <li><a href="2.html">CSS</a></li>
+  <li><a href="3.html">JavaScript</a></li>
+</ol>
+<h2>JavaScript</h2>
+<p>
+  JavaScript (/ˈdʒɑːvəˌskrɪpt/[6]), often abbreviated as JS, is a high-level, dynamic, weakly typed,
+  prototype-based, multi-paradigm, and interpreted programming language. Alongside HTML and CSS,
+  JavaScript is one of the three core technologies of World Wide Web content production. It is used
+  to make webpages interactive and provide online programs, including video games. The majority of
+  websites employ it, and all modern web browsers support it without the need for plug-ins by means
+  of a built-in JavaScript engine. Each of the many JavaScript engines represent a different
+  implementation of JavaScript, all based on the ECMAScript specification, with some engines not
+  supporting the spec fully, and with many engines supporting additional features beyond ECMA.
+</p> -->
